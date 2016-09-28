@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <table>
+            
+            @foreach (var artist in ViewBag.Artist as List<Album>()){
+                <tr>
+                    <td>@artist.Artist</td>
+                    <td>@artist.Price</td>
+                    <td>@artist.Title</td>
+                </tr>
+    }
+        </table>
+    </div>
+</body>
+</html>
