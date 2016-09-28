@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e94ebfc2-06cc-4761-aaca-3d42b4d05042" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65243/Service/IDataContractTutorial.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IDataContractTutorial.disco" MetadataType="Disco" ID="f62ff2d7-1f80-4e65-9062-e65f59d20786" SourceId="1" SourceUrl="http://localhost:65243/Service/IDataContractTutorial.svc?disco" />
+    <MetadataFile FileName="IDataContractTutorial3.xsd" MetadataType="Schema" ID="7639c0ff-a751-47d0-abec-6c58055c0121" SourceId="1" SourceUrl="http://localhost:65243/Service/IDataContractTutorial.svc?xsd=xsd3" />
+    <MetadataFile FileName="IDataContractTutorial1.xsd" MetadataType="Schema" ID="e70c6ddd-3b0a-4bbb-a608-7edcfc7186c2" SourceId="1" SourceUrl="http://localhost:65243/Service/IDataContractTutorial.svc?xsd=xsd2" />
+    <MetadataFile FileName="IDataContractTutorial.wsdl" MetadataType="Wsdl" ID="8b25232a-3c3c-4a8b-98a1-ba9e4bae5a57" SourceId="1" SourceUrl="http://localhost:65243/Service/IDataContractTutorial.svc?wsdl" />
+    <MetadataFile FileName="IDataContractTutorial2.xsd" MetadataType="Schema" ID="693cecde-ea5a-4a3b-b5c8-50d739ef9223" SourceId="1" SourceUrl="http://localhost:65243/Service/IDataContractTutorial.svc?xsd=xsd0" />
+    <MetadataFile FileName="IDataContractTutorial.xsd" MetadataType="Schema" ID="f8ae3fee-b1ba-4016-812e-78e175c81bf1" SourceId="1" SourceUrl="http://localhost:65243/Service/IDataContractTutorial.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

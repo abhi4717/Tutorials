@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+@model List<Album>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th>Artist</th>
+                <th>Title</th>
+                <th>Price</th>
+            </tr>
+            @{
+                foreach (var artist in @Model)
+                {
+                    <tr>
+                        <td>@artist.Artist</td>
+                        <td>@artist.Title</td>
+                        <td>@artist.Price</td>
+                    </tr>
+                }
+            }
+        </table>
+
+    </div>
+    <div>
+        <form action="@Url.Action("Search","Search")" method="get">
+            <span>Search Title</span>
+            <input type="text" name="title" value="" />
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
